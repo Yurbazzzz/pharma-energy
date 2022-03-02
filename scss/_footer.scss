@@ -1,0 +1,35 @@
+.footer {
+    background: #383838;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    &__logo {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 25px;
+
+        letter-spacing: 4px;
+        text-transform: uppercase;
+
+        color: #69B9FF;
+    }
+
+    &__link {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        color: white;
+    }
+
+    &__title {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        color: white;
+    }
+}

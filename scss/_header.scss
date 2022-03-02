@@ -1,0 +1,111 @@
+.header {
+    display: flex;
+    flex-direction: column;
+
+    &__container {
+        background-image: url(..//img/header__bg.png);
+        background-size: cover;
+        padding: 20%;
+    }
+
+    &__container--title {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 59px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: #FFFFFF;
+
+    &__logo {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 25px;
+
+        letter-spacing: 4px;
+        text-transform: uppercase;
+
+        color: #69B9FF;
+    }
+
+    &__links {
+        width: 40%;
+    }
+
+    &__link {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #676770;
+        text-decoration: none;
+        margin: 0% 3%;
+    }
+    &__link:hover {
+        color: #0082F3;
+    }
+}
+
+
+.sidenav {
+    height: 100%; /* 100% Полный рост */
+    width: 0; /* 0 ширина - измените это с помощью JavaScript */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Оставайтесь на вершине */
+    top: 0; /* Оставайтесь на вершине */
+    right: 0;
+    background-color: #111; /* Черный */
+    overflow-x: hidden; /* Отключить горизонтальную прокрутку */
+    padding-top: 60px; /* Поместите содержимое 60px сверху */
+    transition: 0.5s; /* 0.5 секунд эффект перехода, чтобы скользить в sidenav */
+  }
+  
+  /* Ссылки в меню навигации */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* При наведении курсора мыши на навигационные ссылки измените их цвет */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Положение и стиль кнопки закрытия (верхний правый угол) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Стиль содержимого страницы - используйте это, если вы хотите переместить содержимое страницы вправо при открытии боковой навигации */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+
+  .opnBtn {
+      display: none;
+  }

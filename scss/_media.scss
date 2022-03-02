@@ -1,0 +1,311 @@
+@media screen and (max-width: 1300px)  {
+    .nav {
+
+        &__logo {
+            font-size: 20px;
+        }
+
+        &__link {
+            font-size: 12px;
+        }
+    }
+
+    .wwd {
+
+        &__item--title {
+            font-size: 13px;
+        }
+
+    }
+
+    .services {
+        padding: 1% 1%;
+    
+    }
+
+    .item {
+    
+        &__title {
+            font-size: 14px;
+            line-height: 25px;
+        }
+
+        &__subtitle {
+            font-size: 10px;
+            line-height: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px)  {
+    .nav {
+
+        &__logo {
+            font-size: 16px;
+        }
+
+        &__link {
+            font-size: 10px;
+            margin: 0% 1%;
+        }
+    }
+
+    .products {
+
+        &__link {
+            font-size: 10px;
+        }
+    }
+
+    .card {
+
+        &__title {
+            font-size: 20px;
+            margin: 2%;
+        }
+
+        &__subtitle {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+
+    .wwd {
+
+        &__item--title {
+            font-size: 10px;
+        }
+
+        &__item--icon {
+            width: 30px;
+            height: 30px;
+        }
+
+    }
+
+    .footer {
+
+        &__logo {
+            font-size: 20px;
+        }
+
+        &__link {
+            font-size: 12px;
+        }
+
+        &__title {
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px)  {
+    .nav {
+        width: 100%;
+        justify-content: space-around;
+
+        &__logo {
+            font-size: 16px;
+        }
+
+        &__links {
+            display: none;
+        }
+    }
+
+
+    .opnBtn {
+        display: block;
+    }
+
+    .header {
+
+        &__container {
+            margin-top: 7%;
+            padding: 20% 10%;
+        }
+
+        &__container--title {
+            font-size: 35px;
+        }
+    }
+
+    .wwd {
+
+        &__content {
+            flex-direction: column;
+        }
+
+        &__item {
+            width: 50%;
+            margin: 1% 25%;
+        }
+
+    }
+
+    .products {
+        padding: 0% 1%;
+
+        &__title {
+            font-size: 20px;
+        }
+    }
+
+    .card {
+
+        &__title {
+            font-size: 20px;
+            margin: 2%;
+        }
+
+        &__subtitle {
+            font-size: 13px;
+            line-height: 25px;
+        }
+    }
+
+    .questions {
+
+        &__title {
+            font-size: 25px;
+        }
+    }
+
+    .accordion {
+        font-size: 15px;
+    }
+
+    .panel {
+        font-size: 15px;    
+    }
+
+    .footer {
+
+        &__logo {
+            font-size: 15px;
+        }
+
+        &__link {
+            font-size: 10px;
+        }
+
+        &__title {
+            font-size: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 700px)  {
+    .services {
+        padding: 2% 0%;
+    
+        &__content {
+            flex-direction: column;
+        }
+    
+        &__item {
+            width: 95%;
+        }
+        &__item:hover {
+            width: 95%;
+        }
+    }
+
+    .item {
+
+
+        &__title {
+            font-size: 14px;
+            line-height: 25px;
+        }
+
+        &__subtitle {
+            font-size: 10px;
+            line-height: 20px;
+        }
+    }
+
+    .products {
+        padding: 0% 1%;
+
+        &__title {
+            font-size: 20px;
+        }
+    }
+
+    .card {
+        width: 100%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+        &__content {
+            width: 100%;
+        }
+
+        &__title {
+            font-size: 20px;
+            margin: 2% 0%;
+        }
+
+        &__subtitle {
+            width: 70%;
+            font-size: 13px;
+            line-height: 25px;
+        }
+
+        &__img-1 {
+            padding: 30%;
+        }
+        &__img-2 {
+            padding: 30%;
+        }
+        &__img-3 {
+            padding: 30%;
+        }
+        &__img-4 {
+            padding: 30%;
+        }
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 425px)  {
+    .wwd {
+
+        &__title {
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+
+    }
+
+    .questions {
+
+        &__title {
+            font-size: 20px;
+        }
+    }
+
+    .accordion {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 375px)  {
+    .header {
+
+        &__container {
+            margin-top: 10%;
+            padding: 20% 5%;
+        }
+
+        &__container--title {
+            font-size: 25px;
+        }
+    }
+}

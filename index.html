@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" rel="shortcut icon" href="./img/iconmonstr-award-5.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Pharma-energy</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+            <p class="nav__logo">Pharma-Energy</p>
+
+            <div class="nav__links">
+                <a href="#" class="nav__link">Домой</a>
+                <a href="" class="nav__link">Про нас</a>
+                <a href="" class="nav__link">Полезное</a>
+                <a href="" class="nav__link">Продукция</a>
+                <a href="" class="nav__link">Вопросы</a>
+            </div>
+
+            <div id="mySidenav" class="sidenav" style="width: 0px;">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#" class="nav__link">Домой</a>
+                <a href="" class="nav__link">Про нас</a>
+                <a href="" class="nav__link">Полезное</a>
+                <a href="" class="nav__link">Продукция</a>
+                <a href="" class="nav__link">Вопросы</a>
+              </div>
+
+            <div id="menu" class="opnBtn-container" style="margin-left: 0px;">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="opnBtn">☰</span>
+            </div>
+        </div>
+
+        <div class="header__container">
+            <h1 class="header__container--title">Это Pharma-Energy</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="wwd">
+            <h4 class="wwd__title">Преимущества работы с нами</h4>
+
+            <div class="wwd__content">
+                <div class="wwd__item">
+                    <svg class="wwd__item--icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.787 7.531c-5.107 2.785-12.72 9.177-15.787 15.469h2.939c.819-2.021 2.522-4.536 3.851-5.902 8.386 3.747 17.21-2.775 17.21-11.343 0-1.535-.302-3.136-.92-4.755-2.347 3.119-5.647 1.052-10.851 1.625-7.657.844-11.162 6.797-8.764 11.54 3.506-3.415 9.523-6.38 12.322-6.634z"/></svg>
+                    <p class="wwd__item--title">Только натуральный продукт</p>
+                </div>
+
+                <div class="wwd__item">
+                    <svg class="wwd__item--icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.383 15.941l-3.758 8.059-.967-2.658-2.658.968 3.517-7.541c.678.216 1.137.162 1.849.162.744.513 1.072.844 2.017 1.01zm3.252-1.009c-.738.506-1.049.831-1.994 1.004l3.759 8.064.967-2.658 2.633.968-3.495-7.549c-.686.222-1.146.171-1.87.171zm-2.635-11.932c-2.205 0-4 1.795-4 4s1.795 4 4 4c2.206 0 4-1.794 4-4s-1.794-4-4-4zm6.926 5.278c.051.146.074.296.074.445 0 .449-.222.883-.615 1.156-1.256.87-1.09.651-1.562 2.067-.198.591-.77.99-1.414.99h-.004c-1.549-.005-1.279-.088-2.528.789-.262.183-.569.275-.877.275s-.615-.092-.876-.275c-1.249-.878-.98-.794-2.528-.789h-.004c-.645 0-1.216-.399-1.413-.99-.473-1.417-.311-1.198-1.562-2.067-.395-.274-.617-.708-.617-1.157 0-.148.024-.298.074-.444.483-1.411.484-1.139 0-2.555-.05-.147-.074-.297-.074-.445 0-.45.222-.883.616-1.157 1.251-.868 1.089-.648 1.562-2.067.197-.591.769-.99 1.413-.99h.004c1.545.005 1.271.095 2.528-.79.262-.182.569-.274.877-.274s.615.091.876.274c1.249.878.98.795 2.528.79h.004c.645 0 1.216.399 1.414.99.473 1.416.307 1.197 1.562 2.067.394.274.616.707.616 1.156 0 .148-.023.299-.074.445-.483 1.411-.485 1.139 0 2.556zm-1.926-1.278c0-2.761-2.238-5-5-5-2.761 0-5 2.239-5 5s2.239 5 5 5c2.762 0 5-2.238 5-5z"/></svg>
+                    <p class="wwd__item--title">Качество</p>
+                </div>
+
+                <div class="wwd__item">
+                    <svg class="wwd__item--icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M6.72 20.492c1.532.956 3.342 1.508 5.28 1.508 1.934 0 3.741-.55 5.272-1.503l1.24 1.582c-1.876 1.215-4.112 1.921-6.512 1.921-2.403 0-4.642-.708-6.52-1.926l1.24-1.582zm6.405-.992l-.594.391c-.077.069-.19.109-.307.109h-.447c-.118 0-.231-.04-.308-.109l-.594-.391h2.25zm10.875-.5h-6c0-1.105.895-2 2-2h2c.53 0 1.039.211 1.414.586s.586.883.586 1.414zm-18 0h-6c0-1.105.895-2 2-2h2c.53 0 1.039.211 1.414.586s.586.883.586 1.414zm7.146-.5c.138 0 .25.112.25.25s-.112.25-.25.25h-2.279c-.138 0-.25-.112-.25-.25s.112-.25.25-.25h2.279zm.247-.5c0-2.002 1.607-2.83 1.607-4.614 0-1.86-1.501-2.886-3.001-2.886s-2.999 1.024-2.999 2.886c0 1.784 1.607 2.639 1.607 4.614h2.786zm7.607-6c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25zm-18 0c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25zm12.87 2.385l1.349.612-.413.911-1.298-.588c.15-.3.275-.608.362-.935zm-7.739 0c.087.332.208.631.36.935l-1.296.588-.414-.911 1.35-.612zm9.369-1.885v1h-1.501c.01-.335-.02-.672-.093-1h1.594zm-9.406 0c-.072.327-.102.663-.092.997v.003h-1.502v-1h1.594zm6.928-1.714l1.242-.882.579.816-1.252.888c-.146-.291-.335-.566-.569-.822zm-6.044-.001c-.23.252-.418.525-.569.823l-1.251-.888.578-.816 1.242.881zm4.435-1.046l.663-1.345.897.443-.664 1.345c-.278-.184-.58-.332-.896-.443zm-2.826-.001c-.315.11-.618.258-.897.442l-.663-1.343.897-.443.663 1.344zm-2.587-9.054v2.149c-2.938 1.285-5.141 3.942-5.798 7.158l-2.034-.003c.732-4.328 3.785-7.872 7.832-9.304zm8 0c4.047 1.432 7.1 4.976 7.832 9.304l-2.034.003c-.657-3.216-2.86-5.873-5.798-7.158v-2.149zm-3.5 8.846c-.334-.039-.654-.041-1-.001v-1.529h1v1.53zm2.5-2.53h-6c0-1.105.895-2 2-2h2c.53 0 1.039.211 1.414.586s.586.884.586 1.414zm-3-7c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25z"/></svg>
+                    <p class="wwd__item--title">Команда профессионалов</p>
+                </div>
+
+                <div class="wwd__item">
+                    <svg class="wwd__item--icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18 10.031v-6.423l-6.036-3.608-5.964 3.569v6.499l-6 3.224v7.216l6.136 3.492 5.864-3.393 5.864 3.393 6.136-3.492v-7.177l-6-3.3zm-1.143.036l-4.321 2.384v-4.956l4.321-2.539v5.111zm-4.895-8.71l4.272 2.596-4.268 2.509-4.176-2.554 4.172-2.551zm-10.172 12.274l4.778-2.53 4.237 2.417-4.668 2.667-4.347-2.554zm4.917 3.587l4.722-2.697v5.056l-4.722 2.757v-5.116zm6.512-3.746l4.247-2.39 4.769 2.594-4.367 2.509-4.649-2.713zm9.638 6.323l-4.421 2.539v-5.116l4.421-2.538v5.115z"/></svg>
+                    <p class="wwd__item--title">Собственное производство</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="services">
+            <h4 class="services__title">Полезное</h4>
+
+            <div class="services__content">
+                <div class="services__item">
+                    <img src="./img/services1.png" class="item__img" alt="services1">
+                    <p class="item__title">Активное долголетие – это не миф, а вполне достижимая жизненная реальность!</p>
+                    <p class="item__subtitle">
+                        Активное долголетие как понятие, определяющее социально-конструктивную 
+                        жизненную стратегию в почтенных возрастных периодах, особенно активно 
+                        обсуждается в последнее десятилетие. Вопросы, связанные с увеличением продолжительности жизни […]
+                    </p>
+                    <button class="item__btn">Больше</button>
+                </div>
+
+                <div class="services__item">
+                    <img src="./img/services2.jpg" class="item__img" alt="services2">
+                    <p class="item__title">ИССЛЕДОВАНИЕ ДЕЙСТВИЯ ПЕПТИДНОГО КОМПЛЕКСА IPH AGAA НА СКОРОСТЬ, СИЛУ И МОРФОЛОГИЧЕСКИЕ ПОКАЗАТЕЛИ СПОРТСМЕНОВ</p>
+                    <p class="item__subtitle">
+                        Активное долголетие как понятие, определяющее социально-конструктивную 
+                        жизненную стратегию в почтенных возрастных периодах, особенно активно 
+                        обсуждается в последнее десятилетие. Вопросы, связанные с увеличением продолжительности жизни […]
+                    </p>
+                    <button class="item__btn">Больше</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <h4 class="products__title">Продукция</h4>
+            <div class="products__container">
+                <div class="card" >
+                    <div class="card__img-1">
+                    </div>
+                    <div class="card__content">
+                        <h5 class="card__title" >SANUS VITA® IMMUNITY IPH T</h5>
+                        <ul class="card__subtitle">
+                            <li class="card__dots">Пептидный комплекс IPH Т</li>
+                            <li class="card__dots">Номинальный объем единицы упаковки: 60 мл.</li>
+                            <li class="card__dots">SANUS VITA® IMMUNITY IPH T</li>
+                        </ul>
+
+                        <p class="card__cost">Стоимость: <span style="font-weight: bold;">2690 руб.</span> </p>
+
+                        <button class="card__btn">В корзину</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img-2">
+                    </div>
+                    <div class="card__content">
+                        <h5 class="card__title" >БЦАА для мышц, 100 капсул</h5>
+                        <ul class="card__subtitle">
+                            <li>Инновационные пептиды AGAA в сочетании с аминокислотами</li>
+                            <li>100 капс.</li>
+                            <li>IPH AEN BCAA</li>
+                        </ul>
+
+                        <p class="card__cost">Стоимость: <span style="font-weight: bold;">2190 руб.</span> </p>
+
+                        <button class="card__btn">В корзину</button>
+                    </div>
+                 </div>
+
+                <div class="card">
+                    <div class="card__img-3">
+                    </div>
+                    <div class="card__content">
+                        <h5 class="card__title" >БЦАА для сосудов, 100 капсул</h5>
+                        <ul class="card__subtitle">
+                            <li>Биологически активная добавка к пище</li>
+                            <li>100 капс.</li>
+                            <li>IPH AVN BCAA</li>
+                        </ul>
+
+                        <p class="card__cost">Стоимость: <span style="font-weight: bold;">2190 руб.</span> </p>
+
+                        <button class="card__btn">В корзину</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img-4">
+                    </div>
+                    <div class="card__content">
+                        <h5 class="card__title" >БЦАА для хрящей, 100 капсул</h5>
+                        <ul class="card__subtitle">
+                            <li>Биологически активная добавка к пище</li>
+                            <li>100 капс.</li>
+                            <li>IPH AEN BCAA</li>
+                        </ul>
+
+                        <p class="card__cost">Стоимость: <span style="font-weight: bold;">2190 руб.</span> </p>
+
+                        <button class="card__btn">В корзину</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="questions">
+            <h4 class="questions__title">Часто задаваемые вопросы</h4>
+            <div class="questions__accordeon">
+                <button class="accordion">Короткие пептиды – что это такое?</button>
+                    <div class="panel" style="display: none;">
+                        <p>
+                            Малые белковые молекулы, содержащие 2-8 аминокислот, соединенных в устойчивую цепь, ученые назвали короткими пептидами. Это полностью натуральный продукт созданный для активного включения в процесс жизнедеятельности организма. Они направленно действуют на ткани, корректируя их на клеточном уровне. Эффект биорегуляции помогает в профилактике и терапии сложных заболеваний, а так же способствует быстрому восстановлению при тяжелых физических нагрузках.
+                        </p>
+                    </div>
+                <button class="accordion">Вредны ли пептиды?</button>
+                    <div class="panel" style="display: none;">
+                        <p>
+                            Это не праздный вопрос. Поэтому отвечаем абсолютно ответственно: за более, чем 20 лет исследований и использования этих биорегуляторов в профилактике и лечении, не было выявлено ни одного из перечисленных факторов: передозировки, побочные эффекты, подтвержденные факты индивидуальной непереносимости.
+                        </p>
+                    </div>
+                <button class="accordion">Как работают пептиды в организме, они восстанавливают или создают новые клетки?</button>
+                    <div class="panel" style="display: none;">
+                        <p>
+                            Основной механизм действия пептидных регуляторов – стимуляция регенерации уже существующих клеток. За счет своего компактного размера пептиды проникают через мембрану клетки в ее ядро и встраиваются в молекулу ДНК. Происходит активация генов, ответственных за синтез белка.
+                        </p>
+                    </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__logo">Pharma-Energy</p>
+        <a href="" class="footer__link">Политика конфиденциальности</a>
+        <p class="footer__title">ФАРМАТЕХ © 2022, Все права защищены</p>
+    </footer> 
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="./script/accordeon.js"></script>
+    <script src="./script/nav.js"></script>
+</body>
+</html>
